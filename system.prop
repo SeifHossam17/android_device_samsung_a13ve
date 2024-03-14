@@ -1,6 +1,7 @@
 ro.display.series=Samsung Galaxy A13
 ro.product.board=a13ve
 ro.board.platform=mt6768
+ro.boot.dynamic_partitions=true
 ro.treble.enabled=true
 ro.vndk.version=31
 persist.sys.usb.config=mtp,adb
