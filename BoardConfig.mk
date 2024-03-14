@@ -120,3 +120,9 @@ TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
 TW_NO_SCREEN_BLANK := true
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+
+# Compression
+BOARD_RAMDISK_USE_LZMA := true
+
+# Making the recovery.img smaller
+BOARD_HAS_NO_REAL_SDCARD := true
